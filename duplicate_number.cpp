@@ -12,6 +12,7 @@ using namespace std;
 
 class Solution {
 public:
+
     int findDuplicate(vector<int>& nums) {
         map<int,int> m;
         int count;
