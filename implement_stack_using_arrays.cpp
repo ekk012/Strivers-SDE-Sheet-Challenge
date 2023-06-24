@@ -21,6 +21,7 @@ public:
 
     // Function to check if the stack is empty
     bool isEmpty() {
+        //jasdasd
         return top == -1;
     }
 
