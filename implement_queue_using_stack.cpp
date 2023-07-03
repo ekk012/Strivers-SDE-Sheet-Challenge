@@ -11,6 +11,7 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
+// implement queue using stack
 class MyQueue {
 private:
     std::stack<int> inputStack;
