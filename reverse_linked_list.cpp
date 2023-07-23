@@ -6,7 +6,7 @@ struct ListNode {
       ListNode(int x) : val(x), next(nullptr) {}
       ListNode(int x, ListNode *next) : val(x), next(next) {}
   };
- 
+ //iterative
 #include <iostream>
 #include <iterator>
 #include <map>
