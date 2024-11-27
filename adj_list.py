@@ -4,7 +4,7 @@ class GraphNode:
 
         self.adj_list = []  # List to store adjacent nodes
         self.visited = False  # For graph traversal algorithms
-        
+        # adj list 
     def add_edge(self, node):
         """Add an edge to another node"""
         if node not in self.adj_list:
